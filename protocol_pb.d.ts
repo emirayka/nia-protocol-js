@@ -123,6 +123,146 @@ export namespace ActionMouseButtonRelease {
   }
 }
 
+export class ActionTextKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionTextKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionTextKeyClick): ActionTextKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionTextKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionTextKeyClick;
+  static deserializeBinaryFromReader(message: ActionTextKeyClick, reader: jspb.BinaryReader): ActionTextKeyClick;
+}
+
+export namespace ActionTextKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionNumberKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionNumberKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionNumberKeyClick): ActionNumberKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionNumberKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionNumberKeyClick;
+  static deserializeBinaryFromReader(message: ActionNumberKeyClick, reader: jspb.BinaryReader): ActionNumberKeyClick;
+}
+
+export namespace ActionNumberKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionFunctionKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionFunctionKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionFunctionKeyClick): ActionFunctionKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionFunctionKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionFunctionKeyClick;
+  static deserializeBinaryFromReader(message: ActionFunctionKeyClick, reader: jspb.BinaryReader): ActionFunctionKeyClick;
+}
+
+export namespace ActionFunctionKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionControlKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionControlKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionControlKeyClick): ActionControlKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionControlKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionControlKeyClick;
+  static deserializeBinaryFromReader(message: ActionControlKeyClick, reader: jspb.BinaryReader): ActionControlKeyClick;
+}
+
+export namespace ActionControlKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionKPKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionKPKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionKPKeyClick): ActionKPKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionKPKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionKPKeyClick;
+  static deserializeBinaryFromReader(message: ActionKPKeyClick, reader: jspb.BinaryReader): ActionKPKeyClick;
+}
+
+export namespace ActionKPKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionMultimediaKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionMultimediaKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionMultimediaKeyClick): ActionMultimediaKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionMultimediaKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionMultimediaKeyClick;
+  static deserializeBinaryFromReader(message: ActionMultimediaKeyClick, reader: jspb.BinaryReader): ActionMultimediaKeyClick;
+}
+
+export namespace ActionMultimediaKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
+export class ActionMouseButtonKeyClick extends jspb.Message {
+  getKeyCode(): number;
+  setKeyCode(value: number): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionMouseButtonKeyClick.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionMouseButtonKeyClick): ActionMouseButtonKeyClick.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionMouseButtonKeyClick, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionMouseButtonKeyClick;
+  static deserializeBinaryFromReader(message: ActionMouseButtonKeyClick, reader: jspb.BinaryReader): ActionMouseButtonKeyClick;
+}
+
+export namespace ActionMouseButtonKeyClick {
+  export type AsObject = {
+    keyCode: number,
+  }
+}
+
 export class ActionMouseRelativeMove extends jspb.Message {
   getDx(): number;
   setDx(value: number): void;
@@ -271,6 +411,26 @@ export namespace ActionExecuteOSCommand {
   }
 }
 
+export class ActionExecuteNamedAction extends jspb.Message {
+  getActionName(): string;
+  setActionName(value: string): void;
+
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionExecuteNamedAction.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionExecuteNamedAction): ActionExecuteNamedAction.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionExecuteNamedAction, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionExecuteNamedAction;
+  static deserializeBinaryFromReader(message: ActionExecuteNamedAction, reader: jspb.BinaryReader): ActionExecuteNamedAction;
+}
+
+export namespace ActionExecuteNamedAction {
+  export type AsObject = {
+    actionName: string,
+  }
+}
+
 export class Action extends jspb.Message {
   hasActionKeyPress(): boolean;
   clearActionKeyPress(): void;
@@ -301,6 +461,41 @@ export class Action extends jspb.Message {
   clearActionMouseButtonRelease(): void;
   getActionMouseButtonRelease(): ActionMouseButtonRelease | undefined;
   setActionMouseButtonRelease(value?: ActionMouseButtonRelease): void;
+
+  hasActionTextKeyClick(): boolean;
+  clearActionTextKeyClick(): void;
+  getActionTextKeyClick(): ActionTextKeyClick | undefined;
+  setActionTextKeyClick(value?: ActionTextKeyClick): void;
+
+  hasActionNumberKeyClick(): boolean;
+  clearActionNumberKeyClick(): void;
+  getActionNumberKeyClick(): ActionNumberKeyClick | undefined;
+  setActionNumberKeyClick(value?: ActionNumberKeyClick): void;
+
+  hasActionFunctionKeyClick(): boolean;
+  clearActionFunctionKeyClick(): void;
+  getActionFunctionKeyClick(): ActionFunctionKeyClick | undefined;
+  setActionFunctionKeyClick(value?: ActionFunctionKeyClick): void;
+
+  hasActionControlKeyClick(): boolean;
+  clearActionControlKeyClick(): void;
+  getActionControlKeyClick(): ActionControlKeyClick | undefined;
+  setActionControlKeyClick(value?: ActionControlKeyClick): void;
+
+  hasActionKpKeyClick(): boolean;
+  clearActionKpKeyClick(): void;
+  getActionKpKeyClick(): ActionKPKeyClick | undefined;
+  setActionKpKeyClick(value?: ActionKPKeyClick): void;
+
+  hasActionMultimediaKeyClick(): boolean;
+  clearActionMultimediaKeyClick(): void;
+  getActionMultimediaKeyClick(): ActionMultimediaKeyClick | undefined;
+  setActionMultimediaKeyClick(value?: ActionMultimediaKeyClick): void;
+
+  hasActionMouseButtonKeyClick(): boolean;
+  clearActionMouseButtonKeyClick(): void;
+  getActionMouseButtonKeyClick(): ActionMouseButtonKeyClick | undefined;
+  setActionMouseButtonKeyClick(value?: ActionMouseButtonKeyClick): void;
 
   hasActionMouseRelativeMove(): boolean;
   clearActionMouseRelativeMove(): void;
@@ -337,6 +532,11 @@ export class Action extends jspb.Message {
   getActionExecuteOsCommand(): ActionExecuteOSCommand | undefined;
   setActionExecuteOsCommand(value?: ActionExecuteOSCommand): void;
 
+  hasActionExecuteNamedAction(): boolean;
+  clearActionExecuteNamedAction(): void;
+  getActionExecuteNamedAction(): ActionExecuteNamedAction | undefined;
+  setActionExecuteNamedAction(value?: ActionExecuteNamedAction): void;
+
   getActionCase(): Action.ActionCase;
   serializeBinary(): Uint8Array;
   toObject(includeInstance?: boolean): Action.AsObject;
@@ -356,6 +556,13 @@ export namespace Action {
     actionMouseButtonPress?: ActionMouseButtonPress.AsObject,
     actionMouseButtonClick?: ActionMouseButtonClick.AsObject,
     actionMouseButtonRelease?: ActionMouseButtonRelease.AsObject,
+    actionTextKeyClick?: ActionTextKeyClick.AsObject,
+    actionNumberKeyClick?: ActionNumberKeyClick.AsObject,
+    actionFunctionKeyClick?: ActionFunctionKeyClick.AsObject,
+    actionControlKeyClick?: ActionControlKeyClick.AsObject,
+    actionKpKeyClick?: ActionKPKeyClick.AsObject,
+    actionMultimediaKeyClick?: ActionMultimediaKeyClick.AsObject,
+    actionMouseButtonKeyClick?: ActionMouseButtonKeyClick.AsObject,
     actionMouseRelativeMove?: ActionMouseRelativeMove.AsObject,
     actionMouseAbsoluteMove?: ActionMouseAbsoluteMove.AsObject,
     actionTextType?: ActionTextType.AsObject,
@@ -363,6 +570,7 @@ export namespace Action {
     actionExecuteCode?: ActionExecuteCode.AsObject,
     actionExecuteFunction?: ActionExecuteFunction.AsObject,
     actionExecuteOsCommand?: ActionExecuteOSCommand.AsObject,
+    actionExecuteNamedAction?: ActionExecuteNamedAction.AsObject,
   }
 
   export enum ActionCase {
@@ -373,13 +581,21 @@ export namespace Action {
     ACTION_MOUSE_BUTTON_PRESS = 4,
     ACTION_MOUSE_BUTTON_CLICK = 5,
     ACTION_MOUSE_BUTTON_RELEASE = 6,
-    ACTION_MOUSE_RELATIVE_MOVE = 7,
-    ACTION_MOUSE_ABSOLUTE_MOVE = 8,
-    ACTION_TEXT_TYPE = 9,
-    ACTION_WAIT = 10,
-    ACTION_EXECUTE_CODE = 11,
-    ACTION_EXECUTE_FUNCTION = 12,
-    ACTION_EXECUTE_OS_COMMAND = 13,
+    ACTION_TEXT_KEY_CLICK = 7,
+    ACTION_NUMBER_KEY_CLICK = 8,
+    ACTION_FUNCTION_KEY_CLICK = 9,
+    ACTION_CONTROL_KEY_CLICK = 10,
+    ACTION_KP_KEY_CLICK = 11,
+    ACTION_MULTIMEDIA_KEY_CLICK = 12,
+    ACTION_MOUSE_BUTTON_KEY_CLICK = 13,
+    ACTION_MOUSE_RELATIVE_MOVE = 14,
+    ACTION_MOUSE_ABSOLUTE_MOVE = 15,
+    ACTION_TEXT_TYPE = 16,
+    ACTION_WAIT = 17,
+    ACTION_EXECUTE_CODE = 18,
+    ACTION_EXECUTE_FUNCTION = 19,
+    ACTION_EXECUTE_OS_COMMAND = 20,
+    ACTION_EXECUTE_NAMED_ACTION = 21,
   }
 }
 
