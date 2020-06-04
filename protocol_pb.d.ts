@@ -431,6 +431,22 @@ export namespace ActionExecuteNamedAction {
   }
 }
 
+export class ActionExecuteInterpreterValue extends jspb.Message {
+  serializeBinary(): Uint8Array;
+  toObject(includeInstance?: boolean): ActionExecuteInterpreterValue.AsObject;
+  static toObject(includeInstance: boolean, msg: ActionExecuteInterpreterValue): ActionExecuteInterpreterValue.AsObject;
+  static extensions: {[key: number]: jspb.ExtensionFieldInfo<jspb.Message>};
+  static extensionsBinary: {[key: number]: jspb.ExtensionFieldBinaryInfo<jspb.Message>};
+  static serializeBinaryToWriter(message: ActionExecuteInterpreterValue, writer: jspb.BinaryWriter): void;
+  static deserializeBinary(bytes: Uint8Array): ActionExecuteInterpreterValue;
+  static deserializeBinaryFromReader(message: ActionExecuteInterpreterValue, reader: jspb.BinaryReader): ActionExecuteInterpreterValue;
+}
+
+export namespace ActionExecuteInterpreterValue {
+  export type AsObject = {
+  }
+}
+
 export class Action extends jspb.Message {
   hasActionKeyPress(): boolean;
   clearActionKeyPress(): void;
@@ -537,6 +553,11 @@ export class Action extends jspb.Message {
   getActionExecuteNamedAction(): ActionExecuteNamedAction | undefined;
   setActionExecuteNamedAction(value?: ActionExecuteNamedAction): void;
 
+  hasActionExecuteInterpreterValue(): boolean;
+  clearActionExecuteInterpreterValue(): void;
+  getActionExecuteInterpreterValue(): ActionExecuteInterpreterValue | undefined;
+  setActionExecuteInterpreterValue(value?: ActionExecuteInterpreterValue): void;
+
   getActionCase(): Action.ActionCase;
   serializeBinary(): Uint8Array;
   toObject(includeInstance?: boolean): Action.AsObject;
@@ -571,6 +592,7 @@ export namespace Action {
     actionExecuteFunction?: ActionExecuteFunction.AsObject,
     actionExecuteOsCommand?: ActionExecuteOSCommand.AsObject,
     actionExecuteNamedAction?: ActionExecuteNamedAction.AsObject,
+    actionExecuteInterpreterValue?: ActionExecuteInterpreterValue.AsObject,
   }
 
   export enum ActionCase {
@@ -596,6 +618,7 @@ export namespace Action {
     ACTION_EXECUTE_FUNCTION = 19,
     ACTION_EXECUTE_OS_COMMAND = 20,
     ACTION_EXECUTE_NAMED_ACTION = 21,
+    ACTION_EXECUTE_INTERPRETER_VALUE = 22,
   }
 }
 
